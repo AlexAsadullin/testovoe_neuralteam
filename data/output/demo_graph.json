@@ -1,0 +1,1685 @@
+{
+ "nodes": [
+  {
+   "id": "fintech",
+   "name": "Финтех",
+   "description": "FinTech, banking, payments, insurance, investments",
+   "parents": [],
+   "aliases": [
+    "финтех",
+    "fintech",
+    "финтех-стартап",
+    "финтех-компании"
+   ],
+   "count": 6,
+   "root": true,
+   "level": 1,
+   "path": "Финтех"
+  },
+  {
+   "id": "telecom",
+   "name": "Телеком",
+   "description": "Telecom operators, communications, internet providers",
+   "parents": [],
+   "aliases": [
+    "телеком",
+    "telecom",
+    "федеральный оператор связи"
+   ],
+   "count": 1,
+   "root": true,
+   "level": 1,
+   "path": "Телеком"
+  },
+  {
+   "id": "retail",
+   "name": "Ритейл и e-commerce",
+   "description": "Retail chains, e-commerce, marketplaces",
+   "parents": [],
+   "aliases": [
+    "ритейл и e-commerce",
+    "retail"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Ритейл и e-commerce"
+  },
+  {
+   "id": "manufacturing",
+   "name": "Производство",
+   "description": "Manufacturing, industrial plants, automotive, aerospace",
+   "parents": [],
+   "aliases": [
+    "производство",
+    "manufacturing"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Производство"
+  },
+  {
+   "id": "energy",
+   "name": "Энергетика",
+   "description": "Energy, oil and gas, utilities, renewables",
+   "parents": [],
+   "aliases": [
+    "энергетика",
+    "energy"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Энергетика"
+  },
+  {
+   "id": "government",
+   "name": "Госсектор",
+   "description": "Government, public services, defense",
+   "parents": [],
+   "aliases": [
+    "госсектор",
+    "government"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Госсектор"
+  },
+  {
+   "id": "healthcare",
+   "name": "Здравоохранение",
+   "description": "Healthcare, pharma, medical devices, biotech",
+   "parents": [],
+   "aliases": [
+    "здравоохранение",
+    "healthcare"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Здравоохранение"
+  },
+  {
+   "id": "logistics",
+   "name": "Логистика",
+   "description": "Logistics, transportation, supply chain",
+   "parents": [],
+   "aliases": [
+    "логистика",
+    "logistics"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Логистика"
+  },
+  {
+   "id": "construction",
+   "name": "Строительство",
+   "description": "Construction, real estate, facilities",
+   "parents": [],
+   "aliases": [
+    "строительство",
+    "construction"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Строительство"
+  },
+  {
+   "id": "media",
+   "name": "Медиа",
+   "description": "Media, advertising, marketing, entertainment, gaming",
+   "parents": [],
+   "aliases": [
+    "медиа",
+    "media"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Медиа"
+  },
+  {
+   "id": "education",
+   "name": "Образование",
+   "description": "Education, edtech, research",
+   "parents": [],
+   "aliases": [
+    "образование",
+    "education"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Образование"
+  },
+  {
+   "id": "it",
+   "name": "ИТ и корпоративные системы",
+   "description": "Software products, IT services, CRM, ERP, BI, integration, cloud",
+   "parents": [],
+   "aliases": [
+    "ит и корпоративные системы",
+    "it"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "ИТ и корпоративные системы"
+  },
+  {
+   "id": "consulting",
+   "name": "Консалтинг",
+   "description": "Consulting, professional and business services, HR, legal, accounting",
+   "parents": [],
+   "aliases": [
+    "консалтинг",
+    "consulting"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Консалтинг"
+  },
+  {
+   "id": "other",
+   "name": "Прочие отрасли",
+   "description": "Any other industry",
+   "parents": [],
+   "aliases": [
+    "прочие отрасли",
+    "other"
+   ],
+   "count": 0,
+   "root": true,
+   "level": 1,
+   "path": "Прочие отрасли"
+  },
+  {
+   "id": "d0001",
+   "name": "banking",
+   "description": "",
+   "parents": [
+    "fintech"
+   ],
+   "aliases": [
+    "banking",
+    "banking",
+    "system integration",
+    "document management",
+    "payments",
+    "services",
+    "pricing"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "Финтех > banking"
+  },
+  {
+   "id": "d0002",
+   "name": "core banking integration",
+   "description": "The process of integrating core banking systems with other systems or processes to improve efficiency and functionality.",
+   "parents": [
+    "d0001"
+   ],
+   "aliases": [
+    "core banking integration",
+    "core banking integration",
+    "интеграция банковского ядра",
+    "автотесты на python и pytest для адаптеров между мобильным банком и абс цфт",
+    "тестирование миграции счетов и остатков на новую абс diasoft",
+    "интеграционные тесты через kafka"
+   ],
+   "count": 4,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > core banking integration"
+  },
+  {
+   "id": "d0003",
+   "name": "electronic document management",
+   "description": "The process of managing and storing electronic documents and records.",
+   "parents": [
+    "d0001"
+   ],
+   "aliases": [
+    "electronic document management",
+    "electronic document management",
+    "проверка онлайн-проводок через kafka"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > electronic document management"
+  },
+  {
+   "id": "d0004",
+   "name": "data management",
+   "description": "",
+   "parents": [
+    "fintech"
+   ],
+   "aliases": [
+    "data management",
+    "data management",
+    "process automation",
+    "credit risk assessment",
+    "core systems"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "Финтех > data management"
+  },
+  {
+   "id": "d0005",
+   "name": "data reconciliation",
+   "description": "The process of comparing and verifying the accuracy of data between different systems or sources.",
+   "parents": [
+    "d0004",
+    "it"
+   ],
+   "aliases": [
+    "data reconciliation",
+    "data reconciliation",
+    "сверка данных после перехода"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > data management > data reconciliation"
+  },
+  {
+   "id": "d0006",
+   "name": "credit scoring",
+   "description": "The process of evaluating the creditworthiness of an individual or entity to determine the risk level of extending credit.",
+   "parents": [
+    "d0004"
+   ],
+   "aliases": [
+    "credit scoring",
+    "credit scoring",
+    "автотесты кредитного конвейера для потребительских кредитов",
+    "разработка кредитного конвейера для ипотеки и автокредитов",
+    "credit processing",
+    "аналитика ипотечных продуктов и воронки заявок"
+   ],
+   "count": 5,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > data management > credit scoring"
+  },
+  {
+   "id": "d0007",
+   "name": "processing",
+   "description": "",
+   "parents": [
+    "d0001"
+   ],
+   "aliases": [
+    "processing",
+    "processing"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > processing"
+  },
+  {
+   "id": "d0008",
+   "name": "payment processing",
+   "description": "The process of handling transactions between a customer and a merchant, including authorization, capture, and settlement of payments.",
+   "parents": [
+    "d0007"
+   ],
+   "aliases": [
+    "payment processing",
+    "payment processing",
+    "тестирование платежного шлюза интернет-эквайринга, рекуррентные платежи и возвраты"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Финтех > banking > processing > payment processing"
+  },
+  {
+   "id": "d0009",
+   "name": "customer relationship management",
+   "description": "",
+   "parents": [
+    "it"
+   ],
+   "aliases": [
+    "customer relationship management",
+    "customer relationship management"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "ИТ и корпоративные системы > customer relationship management"
+  },
+  {
+   "id": "d0010",
+   "name": "crm systems",
+   "description": "Customer relationship management systems used to manage interactions with customers.",
+   "parents": [
+    "d0009"
+   ],
+   "aliases": [
+    "crm systems",
+    "crm systems",
+    "crm bitrix24"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "ИТ и корпоративные системы > customer relationship management > crm systems"
+  },
+  {
+   "id": "d0011",
+   "name": "enterprise systems",
+   "description": "",
+   "parents": [
+    "it"
+   ],
+   "aliases": [
+    "enterprise systems",
+    "enterprise systems",
+    "internal systems",
+    "product performance"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "ИТ и корпоративные системы > enterprise systems"
+  },
+  {
+   "id": "d0012",
+   "name": "business process management",
+   "description": "",
+   "parents": [
+    "d0011"
+   ],
+   "aliases": [
+    "business process management",
+    "business process management"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "ИТ и корпоративные системы > enterprise systems > business process management"
+  },
+  {
+   "id": "d0013",
+   "name": "erp systems",
+   "description": "Enterprise resource planning systems used to manage core business processes.",
+   "parents": [
+    "d0012",
+    "manufacturing"
+   ],
+   "aliases": [
+    "erp systems",
+    "erp systems",
+    "erp"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "ИТ и корпоративные системы > enterprise systems > business process management > erp systems"
+  },
+  {
+   "id": "d0014",
+   "name": "software products",
+   "description": "",
+   "parents": [
+    "it"
+   ],
+   "aliases": [
+    "software products",
+    "software products",
+    "enterprise software"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "ИТ и корпоративные системы > software products"
+  },
+  {
+   "id": "d0015",
+   "name": "integration",
+   "description": "The process of connecting different software systems to work together.",
+   "parents": [
+    "d0014"
+   ],
+   "aliases": [
+    "integration",
+    "integration"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "ИТ и корпоративные системы > software products > integration"
+  },
+  {
+   "id": "d0016",
+   "name": "customer loyalty",
+   "description": "",
+   "parents": [
+    "retail"
+   ],
+   "aliases": [
+    "customer loyalty",
+    "customer loyalty"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "Ритейл и e-commerce > customer loyalty"
+  },
+  {
+   "id": "d0017",
+   "name": "rewards programs",
+   "description": "",
+   "parents": [
+    "d0016"
+   ],
+   "aliases": [
+    "rewards programs",
+    "rewards programs"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Ритейл и e-commerce > customer loyalty > rewards programs"
+  },
+  {
+   "id": "d0018",
+   "name": "loyalty programs",
+   "description": "Customer loyalty programs designed to reward repeat business.",
+   "parents": [
+    "d0017",
+    "telecom"
+   ],
+   "aliases": [
+    "loyalty programs",
+    "loyalty programs"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Ритейл и e-commerce > customer loyalty > rewards programs > loyalty programs"
+  },
+  {
+   "id": "d0019",
+   "name": "billing",
+   "description": "",
+   "parents": [
+    "telecom"
+   ],
+   "aliases": [
+    "billing",
+    "billing"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "Телеком > billing"
+  },
+  {
+   "id": "d0020",
+   "name": "telecom billing",
+   "description": "The process of calculating charges for telecommunication services based on usage data.",
+   "parents": [
+    "d0019"
+   ],
+   "aliases": [
+    "telecom billing",
+    "telecom billing",
+    "автотесты биллинга и тарификации звонков по cdr",
+    "биллинг оператора связи",
+    "traffic billing",
+    "тарификация трафика"
+   ],
+   "count": 3,
+   "root": false,
+   "level": 3,
+   "path": "Телеком > billing > telecom billing"
+  },
+  {
+   "id": "d0021",
+   "name": "core banking",
+   "description": "The core system that manages the primary banking functions such as account management, transaction processing, and customer data.",
+   "parents": [
+    "d0004"
+   ],
+   "aliases": [
+    "core banking",
+    "core banking",
+    "банк"
+   ],
+   "count": 2,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > data management > core banking"
+  },
+  {
+   "id": "d0022",
+   "name": "core banking systems",
+   "description": "",
+   "parents": [
+    "d0001"
+   ],
+   "aliases": [
+    "core banking systems",
+    "core banking systems"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > core banking systems"
+  },
+  {
+   "id": "d0023",
+   "name": "temenos t24",
+   "description": "A comprehensive banking software platform used for core banking operations.",
+   "parents": [
+    "d0022"
+   ],
+   "aliases": [
+    "temenos t24",
+    "temenos t24"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Финтех > banking > core banking systems > temenos t24"
+  },
+  {
+   "id": "d0024",
+   "name": "rating",
+   "description": "",
+   "parents": [
+    "d0001"
+   ],
+   "aliases": [
+    "rating",
+    "rating"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > rating"
+  },
+  {
+   "id": "d0025",
+   "name": "service rating",
+   "description": "The process of assigning charges to services based on usage or other criteria.",
+   "parents": [
+    "d0024",
+    "telecom"
+   ],
+   "aliases": [
+    "service rating",
+    "service rating",
+    "тарификация услуг"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Финтех > banking > rating > service rating"
+  },
+  {
+   "id": "d0026",
+   "name": "payment processes",
+   "description": "",
+   "parents": [
+    "d0004"
+   ],
+   "aliases": [
+    "payment processes",
+    "payment processes"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > data management > payment processes"
+  },
+  {
+   "id": "d0027",
+   "name": "billing requirements",
+   "description": "The rules and conditions that must be followed in the billing process.",
+   "parents": [
+    "d0026",
+    "telecom"
+   ],
+   "aliases": [
+    "billing requirements",
+    "billing requirements",
+    "требования к биллингу"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Финтех > data management > payment processes > billing requirements"
+  },
+  {
+   "id": "d0028",
+   "name": "customer services",
+   "description": "",
+   "parents": [
+    "d0019"
+   ],
+   "aliases": [
+    "customer services",
+    "customer services"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Телеком > billing > customer services"
+  },
+  {
+   "id": "d0029",
+   "name": "customer billing",
+   "description": "The process of sending bills to customers for services or products used.",
+   "parents": [
+    "d0028",
+    "retail"
+   ],
+   "aliases": [
+    "customer billing",
+    "customer billing",
+    "выставление счетов абонентам"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Телеком > billing > customer services > customer billing"
+  },
+  {
+   "id": "d0030",
+   "name": "subscription management",
+   "description": "",
+   "parents": [
+    "d0004"
+   ],
+   "aliases": [
+    "subscription management",
+    "subscription management"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > data management > subscription management"
+  },
+  {
+   "id": "d0031",
+   "name": "subscription billing",
+   "description": "The process of charging customers for their subscription services on a recurring basis.",
+   "parents": [
+    "d0030",
+    "retail"
+   ],
+   "aliases": [
+    "subscription billing",
+    "subscription billing",
+    "биллинг подписок"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Финтех > data management > subscription management > subscription billing"
+  },
+  {
+   "id": "d0032",
+   "name": "recurring payments",
+   "description": "The process of charging customers repeatedly over time, often using a payment gateway like Stripe.",
+   "parents": [
+    "d0001"
+   ],
+   "aliases": [
+    "recurring payments",
+    "recurring payments",
+    "рекуррентные списания через stripe"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > recurring payments"
+  },
+  {
+   "id": "d0033",
+   "name": "pricing plans",
+   "description": "Different pricing options or packages offered to customers for a service or product.",
+   "parents": [
+    "d0001",
+    "telecom"
+   ],
+   "aliases": [
+    "pricing plans",
+    "pricing plans",
+    "тарифные планы для клиентов"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > pricing plans"
+  },
+  {
+   "id": "d0034",
+   "name": "internal services",
+   "description": "Services developed for internal use within an organization.",
+   "parents": [
+    "d0014"
+   ],
+   "aliases": [
+    "internal services",
+    "internal services",
+    "разработка внутренних сервисов"
+   ],
+   "count": 2,
+   "root": false,
+   "level": 3,
+   "path": "ИТ и корпоративные системы > software products > internal services"
+  },
+  {
+   "id": "d0035",
+   "name": "finance",
+   "description": "",
+   "parents": [
+    "fintech"
+   ],
+   "aliases": [
+    "finance",
+    "finance",
+    "enterprise",
+    "corporate services"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "Финтех > finance"
+  },
+  {
+   "id": "d0036",
+   "name": "credit services",
+   "description": "Services that allow customers to pay for purchases in installments.",
+   "parents": [
+    "d0035"
+   ],
+   "aliases": [
+    "credit services",
+    "credit services",
+    "bnpl services"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > finance > credit services"
+  },
+  {
+   "id": "d0037",
+   "name": "data analytics",
+   "description": "",
+   "parents": [
+    "it"
+   ],
+   "aliases": [
+    "data analytics",
+    "data analytics"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "ИТ и корпоративные системы > data analytics"
+  },
+  {
+   "id": "d0038",
+   "name": "product analytics",
+   "description": "The practice of collecting and analyzing data to understand and improve product performance.",
+   "parents": [
+    "d0011",
+    "fintech"
+   ],
+   "aliases": [
+    "product analytics",
+    "product analytics"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "ИТ и корпоративные системы > enterprise systems > product analytics"
+  },
+  {
+   "id": "d0039",
+   "name": "enterprise banking",
+   "description": "The provision of banking services to legal entities.",
+   "parents": [
+    "d0035"
+   ],
+   "aliases": [
+    "enterprise banking",
+    "enterprise banking",
+    "дбо для юридических лиц"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > finance > enterprise banking"
+  },
+  {
+   "id": "d0040",
+   "name": "corporate banking",
+   "description": "Services provided to corporate clients through online banking platforms.",
+   "parents": [
+    "d0035"
+   ],
+   "aliases": [
+    "corporate banking",
+    "corporate banking",
+    "интернет-банк для корпоративных клиентов"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > finance > corporate banking"
+  },
+  {
+   "id": "d0041",
+   "name": "payment instructions",
+   "description": "Instructions for making payments, often used in banking and finance.",
+   "parents": [
+    "d0001"
+   ],
+   "aliases": [
+    "payment instructions",
+    "payment instructions",
+    "платежные поручения"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Финтех > banking > payment instructions"
+  },
+  {
+   "id": "d0042",
+   "name": "e-commerce",
+   "description": "",
+   "parents": [
+    "retail"
+   ],
+   "aliases": [
+    "e-commerce",
+    "e-commerce",
+    "seller management",
+    "product management"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "Ритейл и e-commerce > e-commerce"
+  },
+  {
+   "id": "d0043",
+   "name": "seller dashboard",
+   "description": "A digital interface for sellers to manage their products and sales.",
+   "parents": [
+    "d0042"
+   ],
+   "aliases": [
+    "seller dashboard",
+    "seller dashboard",
+    "кабинет продавца"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Ритейл и e-commerce > e-commerce > seller dashboard"
+  },
+  {
+   "id": "d0044",
+   "name": "product catalog",
+   "description": "A collection of products available for sale or display.",
+   "parents": [
+    "d0042"
+   ],
+   "aliases": [
+    "product catalog",
+    "product catalog",
+    "каталог товаров"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Ритейл и e-commerce > e-commerce > product catalog"
+  },
+  {
+   "id": "d0045",
+   "name": "gaming",
+   "description": "",
+   "parents": [
+    "media"
+   ],
+   "aliases": [
+    "gaming",
+    "gaming",
+    "entertainment"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 2,
+   "path": "Медиа > gaming"
+  },
+  {
+   "id": "d0046",
+   "name": "backend development",
+   "description": "",
+   "parents": [
+    "d0045"
+   ],
+   "aliases": [
+    "backend development",
+    "backend development"
+   ],
+   "count": 0,
+   "root": false,
+   "level": 3,
+   "path": "Медиа > gaming > backend development"
+  },
+  {
+   "id": "d0047",
+   "name": "mobile gaming",
+   "description": "Developing backend systems for mobile games.",
+   "parents": [
+    "d0046",
+    "it"
+   ],
+   "aliases": [
+    "mobile gaming",
+    "mobile gaming",
+    "django-бэкенд для мобильной игры"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 4,
+   "path": "Медиа > gaming > backend development > mobile gaming"
+  },
+  {
+   "id": "d0048",
+   "name": "gaming studio",
+   "description": "A company that develops video games.",
+   "parents": [
+    "d0045",
+    "it"
+   ],
+   "aliases": [
+    "gaming studio",
+    "gaming studio",
+    "игровая студия"
+   ],
+   "count": 1,
+   "root": false,
+   "level": 3,
+   "path": "Медиа > gaming > gaming studio"
+  }
+ ],
+ "edges": [
+  {
+   "child": "d0001",
+   "parent": "fintech"
+  },
+  {
+   "child": "d0002",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0003",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0004",
+   "parent": "fintech"
+  },
+  {
+   "child": "d0005",
+   "parent": "d0004"
+  },
+  {
+   "child": "d0005",
+   "parent": "it"
+  },
+  {
+   "child": "d0006",
+   "parent": "d0004"
+  },
+  {
+   "child": "d0007",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0008",
+   "parent": "d0007"
+  },
+  {
+   "child": "d0009",
+   "parent": "it"
+  },
+  {
+   "child": "d0010",
+   "parent": "d0009"
+  },
+  {
+   "child": "d0011",
+   "parent": "it"
+  },
+  {
+   "child": "d0012",
+   "parent": "d0011"
+  },
+  {
+   "child": "d0013",
+   "parent": "d0012"
+  },
+  {
+   "child": "d0013",
+   "parent": "manufacturing"
+  },
+  {
+   "child": "d0014",
+   "parent": "it"
+  },
+  {
+   "child": "d0015",
+   "parent": "d0014"
+  },
+  {
+   "child": "d0016",
+   "parent": "retail"
+  },
+  {
+   "child": "d0017",
+   "parent": "d0016"
+  },
+  {
+   "child": "d0018",
+   "parent": "d0017"
+  },
+  {
+   "child": "d0018",
+   "parent": "telecom"
+  },
+  {
+   "child": "d0019",
+   "parent": "telecom"
+  },
+  {
+   "child": "d0020",
+   "parent": "d0019"
+  },
+  {
+   "child": "d0021",
+   "parent": "d0004"
+  },
+  {
+   "child": "d0022",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0023",
+   "parent": "d0022"
+  },
+  {
+   "child": "d0024",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0025",
+   "parent": "d0024"
+  },
+  {
+   "child": "d0025",
+   "parent": "telecom"
+  },
+  {
+   "child": "d0026",
+   "parent": "d0004"
+  },
+  {
+   "child": "d0027",
+   "parent": "d0026"
+  },
+  {
+   "child": "d0027",
+   "parent": "telecom"
+  },
+  {
+   "child": "d0028",
+   "parent": "d0019"
+  },
+  {
+   "child": "d0029",
+   "parent": "d0028"
+  },
+  {
+   "child": "d0029",
+   "parent": "retail"
+  },
+  {
+   "child": "d0030",
+   "parent": "d0004"
+  },
+  {
+   "child": "d0031",
+   "parent": "d0030"
+  },
+  {
+   "child": "d0031",
+   "parent": "retail"
+  },
+  {
+   "child": "d0032",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0033",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0033",
+   "parent": "telecom"
+  },
+  {
+   "child": "d0034",
+   "parent": "d0014"
+  },
+  {
+   "child": "d0035",
+   "parent": "fintech"
+  },
+  {
+   "child": "d0036",
+   "parent": "d0035"
+  },
+  {
+   "child": "d0037",
+   "parent": "it"
+  },
+  {
+   "child": "d0038",
+   "parent": "d0011"
+  },
+  {
+   "child": "d0038",
+   "parent": "fintech"
+  },
+  {
+   "child": "d0039",
+   "parent": "d0035"
+  },
+  {
+   "child": "d0040",
+   "parent": "d0035"
+  },
+  {
+   "child": "d0041",
+   "parent": "d0001"
+  },
+  {
+   "child": "d0042",
+   "parent": "retail"
+  },
+  {
+   "child": "d0043",
+   "parent": "d0042"
+  },
+  {
+   "child": "d0044",
+   "parent": "d0042"
+  },
+  {
+   "child": "d0045",
+   "parent": "media"
+  },
+  {
+   "child": "d0046",
+   "parent": "d0045"
+  },
+  {
+   "child": "d0047",
+   "parent": "d0046"
+  },
+  {
+   "child": "d0047",
+   "parent": "it"
+  },
+  {
+   "child": "d0048",
+   "parent": "d0045"
+  },
+  {
+   "child": "d0048",
+   "parent": "it"
+  }
+ ],
+ "links": [
+  {
+   "doc": "vacancy",
+   "mention": "финтех",
+   "canonical": "fintech",
+   "node": "fintech",
+   "path": "Финтех",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "vacancy",
+   "mention": "интеграция банковского ядра",
+   "canonical": "core banking integration",
+   "node": "d0002",
+   "path": "Финтех > banking > core banking integration",
+   "how": "new",
+   "score": 0.0
+  },
+  {
+   "doc": "r1_abs_integration",
+   "mention": "автотесты на Python и pytest для адаптеров между мобильным банком и АБС ЦФТ",
+   "canonical": "core banking integration",
+   "node": "d0002",
+   "path": "Финтех > banking > core banking integration",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "r1_abs_integration",
+   "mention": "проверка онлайн-проводок через Kafka",
+   "canonical": "electronic document management",
+   "node": "d0003",
+   "path": "Финтех > banking > electronic document management",
+   "how": "new",
+   "score": 0.628
+  },
+  {
+   "doc": "r2_abs_migration",
+   "mention": "тестирование миграции счетов и остатков на новую АБС Diasoft",
+   "canonical": "core banking integration",
+   "node": "d0002",
+   "path": "Финтех > banking > core banking integration",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "r2_abs_migration",
+   "mention": "сверка данных после перехода",
+   "canonical": "data reconciliation",
+   "node": "d0005",
+   "path": "Финтех > data management > data reconciliation",
+   "how": "new",
+   "score": 0.682
+  },
+  {
+   "doc": "r3_credit",
+   "mention": "автотесты кредитного конвейера для потребительских кредитов",
+   "canonical": "credit scoring",
+   "node": "d0006",
+   "path": "Финтех > data management > credit scoring",
+   "how": "new",
+   "score": 0.698
+  },
+  {
+   "doc": "r3_credit",
+   "mention": "интеграционные тесты через Kafka",
+   "canonical": "core banking integration",
+   "node": "d0002",
+   "path": "Финтех > banking > core banking integration",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "r4_acquiring",
+   "mention": "Финтех-стартап",
+   "canonical": "fintech",
+   "node": "fintech",
+   "path": "Финтех",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "r4_acquiring",
+   "mention": "тестирование платежного шлюза интернет-эквайринга, рекуррентные платежи и возвраты",
+   "canonical": "payment processing",
+   "node": "d0008",
+   "path": "Финтех > banking > processing > payment processing",
+   "how": "new",
+   "score": 0.728
+  },
+  {
+   "doc": "r5_crm_retail",
+   "mention": "CRM Bitrix24",
+   "canonical": "crm systems",
+   "node": "d0010",
+   "path": "ИТ и корпоративные системы > customer relationship management > crm systems",
+   "how": "new",
+   "score": 0.682
+  },
+  {
+   "doc": "r5_crm_retail",
+   "mention": "ERP",
+   "canonical": "erp systems",
+   "node": "d0013",
+   "path": "ИТ и корпоративные системы > enterprise systems > business process management > erp systems",
+   "how": "new",
+   "score": 0.718
+  },
+  {
+   "doc": "r5_crm_retail",
+   "mention": "integration",
+   "canonical": "integration",
+   "node": "d0015",
+   "path": "ИТ и корпоративные системы > software products > integration",
+   "how": "new",
+   "score": 0.809
+  },
+  {
+   "doc": "r5_crm_retail",
+   "mention": "loyalty programs",
+   "canonical": "loyalty programs",
+   "node": "d0018",
+   "path": "Ритейл и e-commerce > customer loyalty > rewards programs > loyalty programs",
+   "how": "new",
+   "score": 0.697
+  },
+  {
+   "doc": "r6_telecom",
+   "mention": "автотесты биллинга и тарификации звонков по CDR",
+   "canonical": "telecom billing",
+   "node": "d0020",
+   "path": "Телеком > billing > telecom billing",
+   "how": "new",
+   "score": 0.672
+  },
+  {
+   "doc": "r6_telecom",
+   "mention": "Федеральный оператор связи",
+   "canonical": "telecom",
+   "node": "telecom",
+   "path": "Телеком",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "r7_english",
+   "mention": "core banking integration",
+   "canonical": "core banking",
+   "node": "d0021",
+   "path": "Финтех > data management > core banking",
+   "how": "new",
+   "score": 0.874
+  },
+  {
+   "doc": "r7_english",
+   "mention": "Temenos T24",
+   "canonical": "temenos t24",
+   "node": "d0023",
+   "path": "Финтех > banking > core banking systems > temenos t24",
+   "how": "new",
+   "score": 0.686
+  },
+  {
+   "doc": "полисемия:vac",
+   "mention": "биллинг оператора связи",
+   "canonical": "telecom billing",
+   "node": "d0020",
+   "path": "Телеком > billing > telecom billing",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "полисемия:vac",
+   "mention": "тарификация услуг",
+   "canonical": "service rating",
+   "node": "d0025",
+   "path": "Финтех > banking > rating > service rating",
+   "how": "new",
+   "score": 0.779
+  },
+  {
+   "doc": "полисемия:телеком_биллинг",
+   "mention": "требования к биллингу",
+   "canonical": "billing requirements",
+   "node": "d0027",
+   "path": "Финтех > data management > payment processes > billing requirements",
+   "how": "new",
+   "score": 0.782
+  },
+  {
+   "doc": "полисемия:телеком_биллинг",
+   "mention": "тарификация трафика",
+   "canonical": "traffic billing",
+   "node": "d0020",
+   "path": "Телеком > billing > telecom billing",
+   "how": "auto",
+   "score": 0.889
+  },
+  {
+   "doc": "полисемия:телеком_биллинг",
+   "mention": "выставление счетов абонентам",
+   "canonical": "customer billing",
+   "node": "d0029",
+   "path": "Телеком > billing > customer services > customer billing",
+   "how": "new",
+   "score": 0.846
+  },
+  {
+   "doc": "полисемия:saas_биллинг",
+   "mention": "биллинг подписок",
+   "canonical": "subscription billing",
+   "node": "d0031",
+   "path": "Финтех > data management > subscription management > subscription billing",
+   "how": "new",
+   "score": 0.83
+  },
+  {
+   "doc": "полисемия:saas_биллинг",
+   "mention": "рекуррентные списания через Stripe",
+   "canonical": "recurring payments",
+   "node": "d0032",
+   "path": "Финтех > banking > recurring payments",
+   "how": "new",
+   "score": 0.798
+  },
+  {
+   "doc": "полисемия:saas_биллинг",
+   "mention": "тарифные планы для клиентов",
+   "canonical": "pricing plans",
+   "node": "d0033",
+   "path": "Финтех > banking > pricing plans",
+   "how": "new",
+   "score": 0.733
+  },
+  {
+   "doc": "асимметрия_широкое:vac",
+   "mention": "финтех",
+   "canonical": "fintech",
+   "node": "fintech",
+   "path": "Финтех",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "асимметрия_широкое:узкий_опыт",
+   "mention": "разработка кредитного конвейера для ипотеки и автокредитов",
+   "canonical": "credit scoring",
+   "node": "d0006",
+   "path": "Финтех > data management > credit scoring",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "асимметрия_широкое:широкий_опыт",
+   "mention": "финтех-компании",
+   "canonical": "fintech",
+   "node": "fintech",
+   "path": "Финтех",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "асимметрия_широкое:широкий_опыт",
+   "mention": "разработка внутренних сервисов",
+   "canonical": "internal services",
+   "node": "d0034",
+   "path": "ИТ и корпоративные системы > software products > internal services",
+   "how": "new",
+   "score": 0.7
+  },
+  {
+   "doc": "асимметрия_узкое:vac",
+   "mention": "credit processing",
+   "canonical": "credit scoring",
+   "node": "d0006",
+   "path": "Финтех > data management > credit scoring",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "асимметрия_узкое:узкий_опыт",
+   "mention": "разработка кредитного конвейера для ипотеки и автокредитов",
+   "canonical": "credit scoring",
+   "node": "d0006",
+   "path": "Финтех > data management > credit scoring",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "асимметрия_узкое:широкий_опыт",
+   "mention": "финтех-компании",
+   "canonical": "fintech",
+   "node": "fintech",
+   "path": "Финтех",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "асимметрия_узкое:широкий_опыт",
+   "mention": "разработка внутренних сервисов",
+   "canonical": "internal services",
+   "node": "d0034",
+   "path": "ИТ и корпоративные системы > software products > internal services",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "новый_домен:vac",
+   "mention": "BNPL services",
+   "canonical": "credit services",
+   "node": "d0036",
+   "path": "Финтех > finance > credit services",
+   "how": "new",
+   "score": 0.77
+  },
+  {
+   "doc": "новый_домен:vac",
+   "mention": "product analytics",
+   "canonical": "product analytics",
+   "node": "d0038",
+   "path": "ИТ и корпоративные системы > enterprise systems > product analytics",
+   "how": "new",
+   "score": 0.677
+  },
+  {
+   "doc": "новый_домен:сплит",
+   "mention": "Финтех",
+   "canonical": "fintech",
+   "node": "fintech",
+   "path": "Финтех",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "новый_домен:ипотека",
+   "mention": "аналитика ипотечных продуктов и воронки заявок",
+   "canonical": "credit scoring",
+   "node": "d0006",
+   "path": "Финтех > data management > credit scoring",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "аббревиатура:vac",
+   "mention": "ДБО для юридических лиц",
+   "canonical": "enterprise banking",
+   "node": "d0039",
+   "path": "Финтех > finance > enterprise banking",
+   "how": "new",
+   "score": 0.707
+  },
+  {
+   "doc": "аббревиатура:интернет_банк",
+   "mention": "интернет-банк для корпоративных клиентов",
+   "canonical": "corporate banking",
+   "node": "d0040",
+   "path": "Финтех > finance > corporate banking",
+   "how": "new",
+   "score": 0.811
+  },
+  {
+   "doc": "аббревиатура:интернет_банк",
+   "mention": "платежные поручения",
+   "canonical": "payment instructions",
+   "node": "d0041",
+   "path": "Финтех > banking > payment instructions",
+   "how": "new",
+   "score": 0.745
+  },
+  {
+   "doc": "аббревиатура:маркетплейс",
+   "mention": "кабинет продавца",
+   "canonical": "seller dashboard",
+   "node": "d0043",
+   "path": "Ритейл и e-commerce > e-commerce > seller dashboard",
+   "how": "new",
+   "score": 0.647
+  },
+  {
+   "doc": "аббревиатура:маркетплейс",
+   "mention": "каталог товаров",
+   "canonical": "product catalog",
+   "node": "d0044",
+   "path": "Ритейл и e-commerce > e-commerce > product catalog",
+   "how": "new",
+   "score": 0.694
+  },
+  {
+   "doc": "без_домена:python_банк",
+   "mention": "Банк",
+   "canonical": "core banking",
+   "node": "d0021",
+   "path": "Финтех > data management > core banking",
+   "how": "alias",
+   "score": 1.0
+  },
+  {
+   "doc": "без_домена:python_игры",
+   "mention": "Django-бэкенд для мобильной игры",
+   "canonical": "mobile gaming",
+   "node": "d0047",
+   "path": "Медиа > gaming > backend development > mobile gaming",
+   "how": "new",
+   "score": 0.638
+  },
+  {
+   "doc": "без_домена:python_игры",
+   "mention": "игровая студия",
+   "canonical": "gaming studio",
+   "node": "d0048",
+   "path": "Медиа > gaming > gaming studio",
+   "how": "new",
+   "score": 0.614
+  }
+ ]
+}
